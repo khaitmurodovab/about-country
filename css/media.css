@@ -1,0 +1,78 @@
+@media (max-width: 768px){
+    .header-nav{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header-title{
+        font-size: 14px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main-header{
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .search{
+        width: 100%;
+    }
+    .step-one{
+        flex-direction: column;
+        row-gap: 40px;
+        margin-top: 168px;
+    }
+    .step-two{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .card-img{
+        width: 100%;
+    }
+    main{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    .search{
+        width: 363px;
+        text-align: center;
+        position: absolute;
+        left: 16px;
+    }
+    .select{
+        margin-top: 88px;
+        position: absolute;
+        width: 200px;
+        left: 16px;
+    }
+    .content{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        position: absolute;
+        left: 28px;
+    }
+    .flag-image{
+        max-width: 319px;
+        width: 100%;
+        height: 245px;
+    }
+    .total-column{
+        flex-direction: column;
+    }
+    .desc-menu{
+        flex-direction: column;
+    }
+    .flex{
+        display: flex;
+    }
+    .desc-item{
+        position: sticky;
+
+    }
+}

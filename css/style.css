@@ -1,0 +1,275 @@
+@import url(./fonts.css);
+
+body{
+    background-color: #FAFAFA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:active{
+    opacity: .7;
+}
+
+.header-nav{
+    padding-left: 80px;
+    padding-top: 24px;
+    padding-right: 80px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+}
+
+.header-link-in{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.header-link-in{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Nunito-Sans";
+    color: #111517;
+}
+
+.header-title{
+    font-size: 24px;
+    font-family:  "Nunito-Sans";
+    font-weight: 800;
+    color: #111517;
+}
+
+
+main{
+    padding-top: 48px;
+    padding-bottom: 45px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    border-radius: 5px;
+    max-width: 480px;
+    width: 100%;
+    height: 56px;
+    background: #FFF;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    border: 5px solid #FFF;
+}
+
+
+
+.search:placeholder-shown{
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    color: #848484;
+    font-family: "Nunito-Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.select{
+    padding-left: 24px;
+    max-width: 200px;
+    width: 100%;
+    border: 1px solid #FFF;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-family: "Nunito-Sans";
+}
+
+
+span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #111517;
+    font-family: "Nunito-Sans";
+}
+
+.main-cards{
+    padding-top: 48px;
+}
+.step-two{
+    padding-top: 63px;
+}
+
+.main-card{
+    max-width: 264px;
+    max-width: 100%;
+    height: 336px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    padding-bottom: 46px;
+}
+
+.card-img{
+
+    width: 264px;
+    height: 50%;
+    object-fit: cover;
+    transition: .5s;
+}
+img{
+    display: inline-block;
+}
+
+.step-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.desc{
+    padding-left: 24px;
+    padding-bottom: 46px;
+    padding-top: 24px;
+}
+
+.card-title{
+    color: #111517;
+    font-family: "Nunito-Sans";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+
+
+p{
+    padding-top: 8px;
+    color: #111517;
+    font-family: "Nunito-Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.content{
+    height: 100vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 90px;
+}
+
+.content-header_link{
+    display: flex;
+    max-width: 120px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    column-gap: 10px;
+}
+.content-link__text{
+    color: #111517;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+
+.container{
+    padding-top: 80px;
+    display: flex;
+    column-gap: 120px;
+}
+
+
+.flag-image{
+    max-width: 559px;
+    width: 100%;
+    height: 393px;
+}
+
+.desc-title{
+    color: #111517;
+    font-family: "Nunito-Sans";
+    font-size: 32px;
+    font-weight: 800;
+}
+.desc{
+    padding-top: 40px;
+}
+
+.total-column{
+    display: flex;
+    column-gap: 141px;
+    padding-top: 23px;
+}
+
+.paragraph{
+    display: flex;
+    column-gap: 5px;
+}
+
+.desc-bottom{
+    padding-top: 70px;
+}
+
+.desc-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.desc-menu__enter{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.countries-menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 27px;
+    padding-left: 27px;
+    border-radius: 2px;
+    border: 0px solid #979797;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.10);
+}
+.hide{
+    color: transparent;
+}
+
+
